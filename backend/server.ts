@@ -1,4 +1,5 @@
-import express, { Request, Response } from "express";
+import express from "express";
+import type { Request, Response } from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import { YSocketIO } from "y-socket.io/dist/server";
